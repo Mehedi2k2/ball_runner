@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3393966289484176847
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3393966289484176845}
+  - component: {fileID: 3393966289484176844}
+  m_Layer: 0
+  m_Name: Enemy Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3393966289484176845
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3393966289484176847}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.14600557, y: 8.091741, z: 1087.8756}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3393966289484176844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3393966289484176847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37aa773349c4c744286f358c33752e0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnemyRemdom:
+  - {fileID: 7302714835734550923, guid: bf5dba29d3bd05845bb3538549e20bd6, type: 3}
+  - {fileID: 9008258274418919902, guid: 4a19d61c4a7bb894a8bf3313f7c1c21d, type: 3}
+  - {fileID: 8429152130313980703, guid: f24322917cbaf9b4c86a5d1a60f3f2f8, type: 3}
+  - {fileID: 7407692028460980937, guid: 225b86386907c1c42b381df1e95c7ba1, type: 3}
+  - {fileID: 3649107982196856815, guid: 2d1319672ef46004fb38cb626269b70f, type: 3}
+  - {fileID: 4130567448335013661, guid: ef0376ecd469515489dd56fae3153142, type: 3}
+  speed: 1
+  enemyPosition: {fileID: 0}
+  counter: 0
+  TimeSpeed: 2
+  Zspeed: 200

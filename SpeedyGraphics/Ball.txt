@@ -1,0 +1,7 @@
+
+SCORE
+------------------
+Font Name: Poppins
+Type: Thin
+Size: 180 pt
+
